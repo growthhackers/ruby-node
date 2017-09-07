@@ -1,4 +1,4 @@
-FROM ruby:2.3.1
+FROM ruby:2.4.1
 
 RUN apt-get clean && apt-get update -qq && apt-get install -y \
   build-essential \
